@@ -1,5 +1,5 @@
 ﻿#$username = "SV43448T@wipro.com"
-#$password = "20,Kanalratte"
+#$password = ""
 
 [System.Net.ServicePointManager]::SecurityProtocol = 'TLS12'
 
