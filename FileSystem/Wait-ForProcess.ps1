@@ -1,0 +1,1 @@
+﻿Wait-Process -Id (Get-Process notepad).Id
