@@ -33,7 +33,7 @@ try {
         Owner = $Team.GroupID
         Title = $PlanName
     }
-    $conGraph = Connect-MgGraph
+    #$conGraph = Connect-MgGraph
     
     $result = New-MgPlannerPlan -BodyParameter $params
     write-host $result
