@@ -4,7 +4,7 @@ connect-microsoftteams #-Credential $credentials
 
 $TeamColl = get-team
 
-"" | Out-File "C:\Users\wideffnerm\OneDrive - WIRTGEN GROUP\VS_Repo\get-TeamsOwners.ps1.log"
+"" | Out-File "C:\Users\wideffnerm\OneDrive - WIRTGEN GROUP\VS_Repo\Marius_Deffner\O365\Teams\get-TeamsOwners.ps1.log"
 
 foreach ($team in $TeamColl)
 {
@@ -12,10 +12,7 @@ foreach ($team in $TeamColl)
     
     foreach($Owner in $Owners)
     {
-        $Owner.User | Out-File "C:\Users\wideffnerm\OneDrive - WIRTGEN GROUP\VS_Repo\get-TeamsOwners.ps1.log" -Append
+        $Owner.User | Out-File "C:\Users\wideffnerm\OneDrive - WIRTGEN GROUP\VS_Repo\Marius_Deffner\O365\Teams\get-TeamsOwners.ps1.log" -Append
     }
 }
 
-get-command *connection* 
-    
-Get-CsCloudCallDataConnection
